@@ -4,19 +4,19 @@ const Education = () => {
   const educationDetails = [
     {
       logo: "logo-arrow",
-      degree: 'Stopien',
-      institution: 'Szkola',
-      grades: 'Wynik',
-      year: 'Rok ukończenia',
-      desc: "",
+      degree: '5th class',
+      institution: 'Technikum Inforamtyczne SCI',
+      grades: 'In progress',
+      year: '2021-2026?',
+      desc: "IT technical school with specialization in cybersecurity, computer networks, computer systems administration and programming",
     },
     {
       logo: "logo-play",
-      degree: 'Stopien',
-      institution: 'Szkola',
-      grades: 'Wynik',
-      year: 'Lata',
-      desc: "dsa",       
+      degree: 'Primary/Completed',
+      institution: 'Primary School No. 28 named after Bolesław Czwójdziński in Szczecin',
+      grades: 'Average grade: 5.61 (The highest in the year)',
+      year: '2013-2021',
+      desc: "Public primary school in the Płonia district of Szczecin",       
     },
   ];
 

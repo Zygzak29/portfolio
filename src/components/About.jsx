@@ -34,7 +34,14 @@ const About = () => {
 <br />3D printing: Fusion 360, Tinkercad, PrusaSlicer, Cura, OctoPrint, FDM printers (Creality, Prusa)
 <br />Other: Git, Python (automation and scripting basics), Bash, HTML/CSS basics
 <br />I am constantly developing my skills and following the latest news in both IT security and additive technologies.     </p>
-
+<br />My certificates
+<br />IC3 Spark
+<br />eJPT v2
+<br />
+<br />State certificate confirming the ability to manage the 3D printing process using FDM technology
+<br />
+<br />Driving license category AM, B1, B
+<br />Drone pilot category A1/A3
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
                   <div key={content.text}>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import projectOne from "../assets/images/project-1.png";
-import projectTwo from "../assets/images/project-2.png";
+import projectTwo from "../assets/images/project-2.jpg";
 import projectThree from "../assets/images/project-3.png";
 import projectFour from "../assets/images/project-4.png";
 import projectSix from "../assets/images/project-6.png"; 
@@ -14,14 +14,13 @@ const Project = () => {
   const projects = [
     {
       img: projectTwo,
-      name: "Project Two",
+      name: "PDF - Prawie Darmowy Filament (Almost free filament)",
       github_link: "https://github.com/",
     },
     {
       img: projectOne,
-      name: "Proejct One",
+      name: "Puszka Pandory (Pandora's Box)",
       github_link: "https://github.com/",
-      live_link: "https://aryyan0701.github.io/",
     },
        {
       img: projectThree,
