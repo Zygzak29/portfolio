@@ -2,10 +2,6 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import projectOne from "../assets/images/project-1.png";
 import projectTwo from "../assets/images/project-2.jpg";
-import projectThree from "../assets/images/project-3.png";
-import projectFour from "../assets/images/project-4.png";
-import projectSix from "../assets/images/project-6.png"; 
-import projectSeven from "../assets/images/project-7.png";
 import { Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -22,27 +18,7 @@ const Project = () => {
       name: "Puszka Pandory (Pandora's Box)",
       github_link: "https://github.com/",
     },
-       {
-      img: projectThree,
-      name: "Project Three",
-      github_link: "https://github.com/",
-    },
-    {
-      img: projectFour,
-      name: "Project Four",
-      github_link:
-        "https://github.com/",
-    },
-    {
-      img: projectSix,
-      name: "Project Six",
-      github_link: "https://github.com/",
-    },
-    {
-      img: projectSeven,
-      name: "Project Seven",
-      github_link: "https://github.com/",
-    },
+
   ];
   return (
     <section id="projects" className="py-20 text-white">
@@ -75,7 +51,7 @@ const Project = () => {
             {projects.map((project_info, i) => (
               <SwiperSlide key={i}>
                 <div className="h-fit w-full p-4 bg-slate-700 rounded-xl">
-                  <img src={project_info.img} alt="" className="rounded-lg" />
+                  <img src={project_info.img} alt="" className="rounded-lg " />
                   <h3 className="text-xl my-4">{project_info.name}</h3>
                   <div className="flex gap-3">
                     <a

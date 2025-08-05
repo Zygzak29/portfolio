@@ -25,11 +25,11 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-<br />I am an IT specialist specializing in cybersecurity and 3D printing. I combine technical knowledge with a practical approach to problem-solving – both in the area of IT system protection and in the design and preparation of 3D models for printing.
+<br />I am an IT beginner specializing in cybersecurity and 3D printing. I combine technical knowledge with a practical approach to problem-solving – both in the area of IT system protection and in the design and preparation of 3D models for printing.
 <br />In the area of cybersecurity, I am responsible for vulnerability analysis, firewall configuration, permission management, and user education on the safe use of technology. I am interested in penetration testing, data protection, and responding to security incidents.
 <br />In the field of 3D printing, I have experience in CAD model design, preparing them for printing (slicing), and operating and calibrating FDM printers. I work with both technical models and creative prototypes.
 <br />Technologies and tools I use:
-<br />Cybersecurity: Kali Linux, Wireshark, Nmap, Metasploit, pfSense, Fail2Ban, OpenVAS, Bitwarden, VeraCrypt
+<br />Cybersecurity: Kali Linux, Wireshark, Nmap, Metasploit, Shodan, Hydra, Exploit.db
 <br />Networking and systems: Linux (Ubuntu, Debian), Windows Server, VirtualBox, Docker
 <br />3D printing: Fusion 360, Tinkercad, PrusaSlicer, Cura, OctoPrint, FDM printers (Creality, Prusa)
 <br />Other: Git, Python (automation and scripting basics), Bash, HTML/CSS basics
